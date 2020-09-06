@@ -5,10 +5,11 @@ public class Main
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int a[]=new int[n];
-	    
+	    /* in selection sort we consider two parts one is an sorted array and another
+	    is unsorted array find minimum element form unsorted array than put that in starting of unsorted array continue this process till unsorted array of length 1*/
 	    for(int i=0;i<n;i++)
 	    a[i]=sc.nextInt();
-	    for(int i=0;i<n-1;i++){
+	    for(int i=0;i<n-1;i++){  
 	        int m=i;
 	        for(int j=i+1;j<n;j++)
 	        if(a[j]<a[m])
