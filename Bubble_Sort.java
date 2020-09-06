@@ -9,7 +9,7 @@ public class Main
 	    for(int i=0;i<n;i++)
 	    a[i]=sc.nextInt();
 	    for(int i=0;i<n;i++){
-	        for(int j=0;j<n-i-1;j++){ //in bubble sort we take to elements and than swap which one is smaller
+	        for(int j=0;j<n-i-1;j++){ //in bubble sort we take two elements and than swap which one is smaller
 	            if(a[j]>a[j+1]){
 	                int temp =a[j];
 	                a[j]=a[j+1];
