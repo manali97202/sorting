@@ -5,7 +5,7 @@ public class Main
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int a[]=new int[n];
-	    int c=0;
+	    
 	    for(int i=0;i<n;i++)
 	    a[i]=sc.nextInt();
 	    for(int i=0;i<n-1;i++){
@@ -16,12 +16,12 @@ public class Main
 	        int temp=a[m];
 	       a[m]=a[i];
 	       a[i]=temp;
-	       c=c+1;
+	       
 	        
 	    }
 	    for(int i=0;i<n;i++)
 		System.out.print(a[i]+" ");
-		System.out.println(c);
+		
 	}
 }
 
