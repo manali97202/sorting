@@ -32,3 +32,4 @@ i/p:
 
 o/p:                                                                                                                
 11 12 22 25 64 4  
+time complexity:O(n*n)
